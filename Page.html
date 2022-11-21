@@ -12,8 +12,11 @@
 <div class ="left-side-bar">
     <style>
         .left-side-bar{
-            width: 20%;
-            background-color: white
+            width: 11.5%;
+            padding: 8px 12px 20px;
+            background-color: white;
+            flex-direction: column;
+            vertical-align: baseline
         } </style>
 
 
@@ -23,16 +26,16 @@
             @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
             .insta-title-text{
                 font-family: 'Lobster Two', cursive;
-                margin-left: 50px;
-            padding-top: 50px;
-            font-size: xx-large;
+            padding: 25px 12px 16px;
+            font-size: x-large;
             }
            </style>
 </div>
 
     <div class ="insta_text">
         <style>   .insta_text {
-            margin-left: 15%;
+            font-size: medium;
+            font-weight: normal;
             padding-top: 15%;
            display: flex;
         } </style> 
@@ -111,6 +114,18 @@
 <!-- левый сайд-бар -->
 
 
+
+
+
+
+
+
+
+
+
+
+
+<!-- список пользователей для диалога -->
 <div class="all-central-persons">
     <style>
          .all-central-persons {
@@ -126,22 +141,23 @@
             <style>
                 .direct-mail-title{
             display:flex ;
-            height: 5%;
+            height: 6%;
            border-style: solid;
            font-size: large;
            border-right: none;
-           text-align:end;
-           padding-left: 15%;
-                     padding-top: 5%;
-                     border-color: gainsboro;
+           padding-left: 22%;
+           align-items:center;
+           padding-left:auto;
+         border-color: gainsboro;
         border-width: 1px;
         }
                 </style>
            человечек-на-подскоке
-           <div class="image" style="margin-left: 5%; width: 1em;height: 1em;" >
+           <div class="image" style="margin-left: 2%; width: 1em;height: 1em;" >
             <img src ="dropdown.png" />
+
         </div>
-            <div class="image" style="margin-left: 50px; width: 1em;height: 1em;" >
+            <div class="image" style="padding-left: 40px;   width: 1em;height: 1em;" >
                 <img src ="new-mess-icon.png" />
             </div>
         </div>
@@ -152,9 +168,9 @@
             display: flex;
             padding-top: 15px;
             padding-bottom: 15px;
+            padding-left: 15px;
             border-left: 3px solid;
             border-right: 3px solid;
-            border-bottom: 3px solid;
             border-right: none;
             border-color: gainsboro;
         border-width: 1px;
@@ -201,7 +217,21 @@
 </div>
     </div>
 </div>
-<!-- централтеая часть с пользователями -->
+<!-- список пользователей для диалога -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- непосредственно диалог-->
@@ -222,21 +252,24 @@
         </style>
     <div class ="main-title-chat"  >
         <style> .main-title-chat{
-            height: 5%;
+            height: 6%;
             padding-left: 50px;
             display: flex;
            border-right: 3px solid;
            border-top: 3px solid;
            border-bottom: 3px solid;
           border-right: none;
-           font-size: x-large;
+           font-size: large;
            border-color: gainsboro;
         border-width: 1px;
-        padding-top: 3%;
+        align-items: center;
         }
         </style>
+          <div class="image" >
+            <img src = "circle-pic.png" />
+       </div>
         
-       раздел обкашливания вопросиков
+       имя другого юзера
     
     <div class="info-image" >
         <style>
@@ -244,7 +277,7 @@
             display: flex;
                 width: 1em;
                 height: 1em;
-               margin-left: 200px;
+               padding-left: 60%;
                
                
                 
@@ -258,6 +291,8 @@
  .chat-area{
     padding-top: 5%;
         height: 80%;
+        padding-left: 2%;
+        padding-right   : 2%;
         overflow: visible;
     overflow-y: auto;
     font-size:medium;
@@ -266,16 +301,6 @@
     }
             </style>
 <div class="message-one">
-    <style>
-        .message-one{
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -283,42 +308,15 @@
     .answer-message{
         display: flex;
     }
-    
     </style>
     <div class="image" >
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
-
 </div>
-
-
 <div class="message-one">
-    <style>
-        .message-one{
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -326,43 +324,16 @@
     .answer-message{
         display: flex;
     }
-    
     </style>
     <div class="image" >
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
 
 </div>
-
-
-
 <div class="message-one">
-    <style>
-        .message-one{
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -370,43 +341,16 @@
     .answer-message{
         display: flex;
     }
-    
     </style>
     <div class="image" >
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
 
 </div>
-
-
-
 <div class="message-one">
-    <style>
-        .message-one{
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -414,43 +358,16 @@
     .answer-message{
         display: flex;
     }
-    
     </style>
     <div class="image" >
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
 
 </div>
-
-
-
 <div class="message-one">
-    <style>
-        .message-one{
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -458,44 +375,16 @@
     .answer-message{
         display: flex;
     }
-    
     </style>
     <div class="image" >
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
 
 </div>
-
-
-
-
 <div class="message-one">
-    <style>
-        .message-one{
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -509,38 +398,11 @@
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
 
 </div>
-
-
-
-
 <div class="message-one">
-    <style>
-        .message-one{
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -554,38 +416,11 @@
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
 
 </div>
-
-
-
-
 <div class="message-one">
-    <style>
-        .message-one{
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -599,38 +434,11 @@
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
 
 </div>
-
-
-
-
 <div class="message-one">
-    <style>
-        .message-one{
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -644,39 +452,11 @@
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
 
 </div>
-
-
-
-
 <div class="message-one">
-    <style>
-        .message-one{
-            margin-top: 3%;
-            border: solid;
-            width: 35%;
-            margin-left: 60%;
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-        }
-        </style>
     текст какого нибудь сообщения 
 </div>
 <div class="answer-message">
@@ -690,98 +470,33 @@
         <img src = "circle-pic.png" />
     </div>
     <div class="message-two">
-       
-    <style>
-        .message-two{border:solid;
-            width: 40%;   
-            font-size: medium;
-            border-radius: 50px;
-            padding-left: 20px;
-            display: flex;
-            height: auto;
-            justify-content: center;
-        }
-    
-        </style>
     текст какого нибудь сообщения подлиннее
     </div>
-
-</div>
-
-
     </div>
+    </div>
+
     <div class="input-text-area">
-        <style>
-             .input-text-area{
-        display: flex;
-        border: 2px solid;
-        font-size: large;
-        border-radius: 10px;
-        border-width: 1px;
-        width: 90%;
-        height: 5%;
-        margin-left: 5%;
-        border-color: gainsboro;
-    border-width: 1px;
-    margin-top: 3%;
-    }
-            </style>
         <div class = 'chat-images'>
-            <style>
+             <img src = "emoji.png" />
+       </div>
+ <textarea placeholder="enter here" cols="50"rows="4" ></textarea>
+        <div class = 'chat-images'> <img src = "Gallery-PNG-Images.png" /> </div>
+        <div class = 'chat-images'> <img src = "like.png" /> </div>
+    </div>
+       
+    </div>
+</div>
+</div>
+<!-- непосредственно диалог -->
+    <style> 
+
                 .chat-images{
                     display: flex;
                 width: 2em;
                 height: 2em;
                 margin-right: 1em;
                 margin-left: 1em;
-                margin-top: 1%;
                 }
-                </style>
-             <img src = "emoji.png" />
-       </div>
-        
-    <div class = "text-area">
-    <style>
-    .text-area{
-        margin-right: 30%;
-        margin-top: 2%;
-        padding-left: 10%;
-    }
-    
-        </style>
-    
-    окошко ввода 
-    </div>
-       
-         <div class = 'chat-images'> <img src = "Gallery-PNG-Images.png" /> </div>
-         <div class = 'chat-images'> <img src = "like.png" /> </div>
-    </div>
-
-
-
-
-
-
-
-    
-</div>
-</div>
-<!-- непосредственно диалог -->
-
-
-
-
-
-
-
-</div>
-
-
-
-
-    <style type="text/css"> 
-
-     
        
         .user-status-panel{
             display: flex;
@@ -798,19 +513,13 @@
 
         }
         
-        .another-user-chat-title{
-font-size: x-large;
-        }
+     .all-user-messages{
+        overflow: visible;
+        overflow-y: auto;
+        height: 500px;
+      }
+        
        
-    
-.all-user-messages{
-    overflow: visible;
-    overflow-y: auto;
-    height: 500px;
-}
-        </style>
-       
-       <style>
         @font-face {
          font-family: Pompadur; /* Гарнитура шрифта */
          src: url(fonts/pompadur.ttf); /* Путь к файлу со шрифтом */
@@ -818,5 +527,53 @@ font-size: x-large;
         .insta_text {
          font-family: Pompadur, 'Comic Sans MS', cursive;
         }
+        
+
+        .message-one{
+            border: solid;
+            width: 35%;
+            margin-left: 60%;
+            font-size: medium;
+            border-radius: 50px;
+            padding-left: 2%;
+            margin-top: 1%;
+        }
+
+        .message-two{border:solid;
+            width: 40%;   
+            font-size: medium;
+            border-radius: 50px;
+            padding-left: 20px;
+            display: flex;
+            height: auto;
+            justify-content: center;
+        }
+        textarea {
+                border:none;
+                resize: none;
+                background-color: transparent;
+                display: flex;
+                height: 40px;
+              }
+             textarea:focus-visible{
+                outline: none;
+                 }
+                 .input-text-area {
+        display: flex;
+        border: 2px solid;
+        font-size: large;
+        border-radius: 20px;
+        border-width: 1px;
+        width: 98%;
+        height: 5%;
+        border-color: gainsboro;
+        margin-left: 1%;
+    border-width: 1px;
+    margin-top: 3%;
+    align-items: center;
+    }
        </style>
        
+
+
+     
