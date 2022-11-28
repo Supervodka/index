@@ -3,6 +3,7 @@
 
 <body>
     <div class="all-page">
+        <div class = "left-side" >
         <div class="left-side-bar">
             <div class="insta-title-text">
                 Instagram
@@ -49,24 +50,26 @@
                 </div>
                 Профиль
             </div>
-            <div class="hamburger_icon">
-
-                <div class="image">
-                    <img src="Hamburger_icon.svg.png" />
-                </div>
-                Ещё
-            </div>
+           
         </div>
+        <div class="hamburger_icon">
+
+            <div class="image">
+                <img src="Hamburger_icon.svg.png" />
+            </div>
+            Ещё
+        </div>
+    </div>
         <!-- левый сайд-бар -->
         <!-- список пользователей для диалога -->
         <div class="persons-n-chats">
             <div class="all-central-persons">
                 <div class="direct-mail-title">
                     человечек-на-подскоке
-                    <div class="image" style="margin-left: 2%; width: 1em;height: 1em;">
+                    <div class="main-title-icons">
                         <img src="dropdown.png" />
                     </div>
-                    <div class="image" style="padding-left: 20px;   width: 1em;height: 1em;">
+                    <div class="main-title-icons">
                         <img src="new-mess-icon.png" />
                     </div>
                 </div>
@@ -267,8 +270,14 @@
         border-width: 1px;
         align-items: center;
     }
+    .main-title-icons{
+         width: 10%;
+         height: 35%;
+         display: flex;
+         padding-left: 15px;
+    }
 
-    .left-side-bar {
+    .left-side-bar,.left-side {
         width: 20%;
         padding: 8px 12px 20px;
         background-color: white;
@@ -279,13 +288,12 @@
     .info-image {
         display: flex;
         width: 1em;
-        height: 1em;
+        height: 1.5em;
         padding-left: 55%;
     }
 
     .chat-area {
-        padding-top: 5%;
-        height: 80%;
+        height: 85%;
         padding-left: 2%;
         padding-right: 2%;
         overflow: visible;
@@ -302,13 +310,11 @@
     .all-page {
         display: flex;
         background-color: white;
-        border-left: solid 2px gainsboro
     }
 
     .all-central-persons {
-        margin-top: 1%;
         background-color: white;
-        margin-bottom: 1%;
+        width: 25%;
     }
 
     .text-n-picture {
@@ -324,19 +330,28 @@
         border-width: 1px;
     }
 
+
+    html {
+        height: 100%;
+    }
+
     body {
-        margin: 0 !important;
+        min-height: 100%;
+        margin: 0 0 0 0 ;
     }
 
     .persons-n-chats {
         display: flex;
         width: 100%;
         background-color: whitesmoke;
-        vertical-align: baseline;
         padding-left: 17%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        height: 930px;
     }
 
     .direct-mail-title {
+        
         display: flex;
         height: 6%;
         border-style: solid;
@@ -344,7 +359,6 @@
         border-right: none;
         padding-left: 20%;
         align-items: center;
-        padding-left: auto;
         border-color: gainsboro;
         border-width: 1px;
     }
@@ -375,7 +389,6 @@
     .all-user-messages {
         overflow: visible;
         overflow-y: auto;
-        height: auto;
         border-bottom: solid 1px gainsboro;
         border-top: none;
     }
@@ -384,12 +397,10 @@
         border-bottom: 3px solid;
         border-right: 3px solid;
         border-left: 3px solid;
-        margin-top: 1%;
-        margin-bottom: 1%;
         background-color: white;
         border-color: gainsboro;
         border-width: 1px;
-        height: 890px;
+       
     }
 
     @font-face {
@@ -398,19 +409,20 @@
         src: url(fonts/pompadur.ttf);
         /* Путь к файлу со шрифтом */
     }
-
-    .hamburger_icon {
-        padding-top: 300px;
-    }
-
-
-    .insta_text .hamburger_icon {
+    .insta_text{
         font-size: medium;
         font-weight: normal;
-        padding-top: 15%;
+        display: flex;
+        margin-top: 85%;
         font-family: Pompadur, 'Comic Sans MS', cursive;
     }
-
+    .hamburger_icon {
+    padding-top: 250px   ;
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+    font-size: medium;
+        font-weight: normal;
+        display: flex;
+ }
     @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
     .insta-title-text {
@@ -433,7 +445,6 @@
         font-size: medium;
         border-radius: 50px;
         padding-left: 2%;
-        margin-top: 1%;
     }
 
     .message-two {
@@ -443,7 +454,6 @@
         border-radius: 50px;
         padding-left: 20px;
         display: flex;
-        height: auto;
         justify-content: center;
     }
 
@@ -452,7 +462,6 @@
         resize: none;
         background-color: transparent;
         display: flex;
-        height: 40px;
     }
 
     textarea:focus-visible {
@@ -466,12 +475,12 @@
         border-radius: 20px;
         border-width: 1px;
         width: 94%;
-        height: 5%;
         border-color: gainsboro;
         margin-left: 3%;
         border-width: 1px;
-        margin-top: 3%;
         align-items: center;
+        height: 6%;
+        padding-top: 10px;
     }
 </style>
 
