@@ -6,15 +6,6 @@
         <div class="left-side-bar">
             <div class="insta-title-text">
                 Instagram
-                <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
-
-                    .insta-title-text {
-                        font-family: 'Lobster Two', cursive;
-                        padding: 25px 12px 16px;
-                        font-size: x-large;
-                    }
-                </style>
             </div>
             <div class="insta_text">
                 <div class="image">
@@ -58,7 +49,7 @@
                 </div>
                 Профиль
             </div>
-            <div class="insta_text" style="padding-top: 300px;">
+            <div class="hamburger_icon">
 
                 <div class="image">
                     <img src="Hamburger_icon.svg.png" />
@@ -278,7 +269,7 @@
     }
 
     .left-side-bar {
-        width: 16%;
+        width: 20%;
         padding: 8px 12px 20px;
         background-color: white;
         height: 100%;
@@ -408,15 +399,24 @@
         /* Путь к файлу со шрифтом */
     }
 
-    .insta_text {
-        font-family: Pompadur, 'Comic Sans MS', cursive;
+    .hamburger_icon {
+        padding-top: 300px;
     }
 
-    .insta_text {
+
+    .insta_text .hamburger_icon {
         font-size: medium;
         font-weight: normal;
         padding-top: 15%;
-        display: flex;
+        font-family: Pompadur, 'Comic Sans MS', cursive;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+    .insta-title-text {
+        font-family: 'Lobster Two', cursive;
+        padding: 25px 12px 16px;
+        font-size: x-large;
     }
 
     .image {
